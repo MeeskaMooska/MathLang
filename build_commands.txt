@@ -1,0 +1,15 @@
+***********************************************************************************
+***** I'M JUST STORING BUILD COMMANDS HERE SO I CAN JUST COPY AND PASTE THEM. *****
+***********************************************************************************
+
+// Build the assembly
+nasm -f win64 .\learning_assembly\barebones.asm -o .\learning_assembly\builds\barebones.o
+
+// Link the assembly
+lld-link /subsystem:console /entry:main learning_assembly/builds/barebones.o kernel32.lib
+
+or
+
+clang .\learning_assembly\builds\barebones.o -o barebones.exe
+
+Then just call the program.

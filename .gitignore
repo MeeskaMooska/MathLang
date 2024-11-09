@@ -1,0 +1,9 @@
+# Vscode stuff.
+.vscode
+MathLang.code-workspace
+
+# Builds
+builds
+
+# Stray .exe files
+*.exe

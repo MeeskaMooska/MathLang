@@ -1,0 +1,5 @@
+***********************************************************************************
+***** I'M JUST STORING BUILD COMMANDS HERE SO I CAN JUST COPY AND PASTE THEM. *****
+***********************************************************************************
+
+gcc compiler/code/main.c compiler/code/build_assembly.c -o compiler/builds/V-0.0/MathLangCompiler
